@@ -83,14 +83,15 @@ cd Doctor-appointment-booking-system
 cd backend
 npm install
 
-# Create a .env file inside backend/:
+Create a .env file inside backend/:
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
 STRIPE_SECRET_KEY=your_stripe_secret_key
 RAZORPAY_KEY_ID=your_razorpay_key_id
 RAZORPAY_KEY_SECRET=your_razorpay_key_secret
-## npm run server
+
+npm run server
 
 3️⃣ Setup Frontend
 cd ../frontend
